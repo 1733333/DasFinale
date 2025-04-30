@@ -1,0 +1,60 @@
+name: DasFinale
+version: 1.0
+author: yaoguai
+api-version: 1.18
+main: DF
+commands:
+  vault:
+    description: create a vault
+    usage: /vault
+  cashbox:
+    description: create a cashbox
+    usage: /cashbox
+  cashoutstation:
+    description: create a cashoutstation
+    usage: /cashoutstation
+  damagetest:
+    description: summon a damage tester
+    usage: /damagetest [x][y][z][size]
+  getitem:
+    description: get game items
+    usage: /getitem
+  summonjar:
+    description: summon some jars
+    usage: /summonjar [type]
+  setskill:
+    description: set player skills
+    usage: /setskill [skill]
+  contestant:
+    description: open contestant menu
+    usage: /contestant
+  teams:
+    description: open teams menu
+    usage: /teams
+  gameshowevent:
+    description: test game show event
+    usage: /gameshowevent [id]
+  gamestart:
+    description: test game start
+    usage: /gamestart
+  gameend:
+    description: test game end
+    usage: /gameend
+  loadout:
+    description: set load out
+    usage: /loadout
+  jumppoint:
+    description: set jump point
+    usage: /jumppoint
+  setgamemode:
+    description: set game mode
+    usage: /setgamemode
+  bankstation:
+    description: summon bank station
+    usage: /bankstation
+  suddendeath:
+    description: set sudden death
+    usage: /suddendeath
+  achievements:
+    description: see your achievements
+    usage: /achievements
